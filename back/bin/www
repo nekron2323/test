@@ -10,7 +10,8 @@ const App = require('../app');
 
 const port = normalizePort('4050');
 
-const db = mongojs('127.0.0.1:27017/test')
+const db = mongojs(process.env.DB_HOST + '/' + process.env.DB_NAME)
+
 db.on('error', (err) => console.log('Отсутствует связь с MongoDB'));
 db.on('connect', () => console.log('Связь с MongoDB установлена'));
 
