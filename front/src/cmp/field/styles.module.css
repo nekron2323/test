@@ -1,0 +1,39 @@
+.field {
+    width: 250px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.label {
+    color: #000;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px 15px;
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+}
+
+.input:active {
+    border: none;
+    outline: none;
+}
+
+.img {
+    width: 24px;
+    margin: 8px 7px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

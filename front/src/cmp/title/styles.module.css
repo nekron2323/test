@@ -1,0 +1,15 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    
+}
+
+.text {
+    color: #73992A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 16px;
+}

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+.menuLink {
+    white-space: nowrap;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0;
+    font-weight: 500;
+    line-height: 19px;
+    margin-right: 28px;
+}
+
+.menuLink:last-child {
+    font-size: 16px;
+    margin-right: 0px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.name {
+    margin-right: 15px;
+}
+
+.img {
+    width: 23px;
+}

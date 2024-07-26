@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.text {
+    color: #000;
+    font-weight: 700;
+}
+
+.text_value {
+    font-weight: 500;
+}
+
+.btn {
+    width: 80%;
+}
+
+.message {
+    color: #FF002A;
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 500;
+}

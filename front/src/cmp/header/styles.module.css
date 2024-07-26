@@ -1,0 +1,13 @@
+.header {
+    margin-bottom: 52px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 0, 0, .15);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}

@@ -1,0 +1,22 @@
+.container {
+    padding: 10px 50px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.btn_fields {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px 20px;
+}
+
+.message {
+    color: #FF002A;
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 500;
+}
